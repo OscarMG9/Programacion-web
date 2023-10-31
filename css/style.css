@@ -1,7 +1,14 @@
 h1{
     padding-top: 100px;
     text-align: center;
-    color: rgb(33, 35, 33);
+    color: rgb(32, 36, 32);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#titulo1 {
+    padding-top: 100px;
+    text-align: center;
+    color: rgb(231, 241, 231);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -13,10 +20,6 @@ h3 {
 
 p{
     text-align: justify;
-}
-
-.numCopas {
-    text-align: left;
 }
 
 /*Estilos Menu de navegacion, Paco*/
@@ -60,3 +63,17 @@ nav a:hover {
 }
 
 /*Barra navegación*/
+
+/* Boton */
+
+#boton{
+    height: 30px;
+    width: 60;
+}
+
+/* Fondo del body de sitio personal */
+.fondo {
+    background-image: url("../img/fondoSitioPersonal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
