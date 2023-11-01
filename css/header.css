@@ -1,0 +1,29 @@
+body{
+    padding-left: 40px;
+}
+#headmenu {
+    width: 20%;
+    height: 10%;
+    position: fixed;
+    background-color: transparent;
+    text-align: center;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px ;
+}
+
+#a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 24px;
+}
+
+#a:hover {
+    color: yellow;
+    height: 15%;
+}
